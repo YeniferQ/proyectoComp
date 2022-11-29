@@ -1,0 +1,2 @@
+# proyectoComp
+proyecto computación 

@@ -22,4 +22,21 @@ int main()
 					else {
 						if (Mes1 == 2 && Dia1 < 29 && !(anio % 4)) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
 						else {
-}
+							if (Mes1 == 2 && Dia1 == 29 && !(anio % 4)) { printf("%2i %2i %4i", Dia1 / Dia1, Mes1 + 1, anio); }
+							else {
+								if (Mes1 == 3 && Dia1 < 31) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
+								else {
+									if (Mes1 == 3 && Dia1 == 31) { printf("%2i %2i %4i", Dia1 / Dia1, Mes1 + 1, anio); }
+									else {
+										if (Mes1 == 4 && Dia1 < 30) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
+										else {
+											if (Mes1 == 4 && Dia1 == 30) { printf("%2i %2i %4i", Dia1 / Dia1, Mes1 + 1, anio); }
+											else {
+												if (Mes1 == 5 && Dia1 < 31) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
+												else {
+													if (Mes1 == 5 && Dia1 == 31) { printf("%2i %2i %4i", Dia1 / Dia1, Mes1 + 1, anio); }
+													else {
+														if (Mes1 == 6 && Dia1 < 30) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
+														else {
+															if (Mes1 == 6 && Dia1 == 30) { printf("%2d %2d %4d", Dia1 / Dia1, Mes1 + 1, anio); }
+															else {

@@ -54,3 +54,5 @@ int main()
 																					else {
 																						if (Mes1 == 10 && Dia1 < 31) { printf("%2i %2i %4i", Dia1 + 1, Mes1, anio); }
 																						else {
+																							if (Mes1 == 10 && Dia1 == 31) { printf("%2i %2i %4i", Dia1 / Dia1, Mes1 + 1, anio); }
+																							else {

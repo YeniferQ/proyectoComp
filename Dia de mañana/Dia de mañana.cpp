@@ -89,3 +89,8 @@ int main()
 			}
 		}
 	}
+
+	else { if (Dia1 == 4 && Mes1 == 10 && anio == 1582) { printf("%2i %2i %4i", Dia1 + 11, Mes1, anio); } }
+
+	return 0;
+}
